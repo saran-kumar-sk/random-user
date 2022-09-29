@@ -24,6 +24,7 @@ function App() {
     const {
       street: { number, name },
     } = person.location;
+    
 
     const newPerson = {
       image,
@@ -53,6 +54,7 @@ function App() {
 
   return (
     <div className="App">
+      <input className="search" placeholder="Search...." />{" "}
       <div className="block bcg-black"></div>
       <div className="block">
         <div className="container">
